@@ -85,7 +85,11 @@ header {
     display: block;
 }
 
-
+//The For Loop
+@for $i from 1 through 12 {
+    $w: calc($i /12) *100%;
+    .small-#{$i} {flex-basis: $w;}
+}
 
 
 
