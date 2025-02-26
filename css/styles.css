@@ -435,6 +435,11 @@ header span {
   flex-basis: 100%;
 }
 
+main img {
+  width: 100%;
+  height: auto;
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;

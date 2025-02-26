@@ -91,6 +91,10 @@ header {
     .small-#{$i} {flex-basis: $w;}
 }
 
+main img{
+    width: 100%;
+    height: auto;
+}
 
 // styling the rows
 .row{
