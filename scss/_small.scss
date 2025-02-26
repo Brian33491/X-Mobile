@@ -94,6 +94,7 @@ header {
 main img{
     width: 100%;
     height: auto;
+    padding-top: 15px;
 }
 
 // styling the rows
@@ -103,19 +104,25 @@ main img{
     justify-content: center;
     margin: 1rem 0;
     padding: 0 8px;
-    border: green solid 1px;
+    
 }
 
 // styling the columns
 .column{
     padding: 0 8px;
     margin: 8px 0;
-    border: red dashed 1px;
+    
 }
 
+.line, .round, .fill, .shadow {padding: 8px 8px;}
+.line{border: 1px #bbb solid;}
+.round{ border-radius: 9px;}
+.fill{background-color: #eee;}
+.shadow{box-shadow: 0 0 10px #aaa;}
 
-
-
+//Nintendo Switch Theme
+.switchColor{background-color: rgb(230, 165, 165);}
+.switchLine{border: 3px rgb(165, 212, 230) solid;}
 
 
 
@@ -124,18 +131,50 @@ main {
     h1 {
         padding: 1rem $gutter.5rem $gutter;
         font-size: 1.5rem;
-        color: $secondaryColor;
-        font-weight: $lightWeight
+        color: black;
+        font-weight: 20px
     }
     p {
         padding: .5rem $gutter;
         color: #333;
         line-height: $leading;
     }
+    
 }// end main
 
+h2{
+    margin: 15px;
+}
+h3{
+    text-align: center;
+}
 
-
+.container {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+  }
+  
+  .custom-button {
+    background-color: #5ebbf1;
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .custom-button:hover {
+    transform: scale(1.05);
+  }
+  
+ 
+  
+ 
 /* --------------------------- FOOTER --------------------------- */
 #footerWrapper {
     background-color: $primaryColor

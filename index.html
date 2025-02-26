@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Navigation Example</title>
+	<title>X-Mobile</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" media="screen" href="css/styles.min.css">
 
@@ -17,16 +17,16 @@
 <body>
 <div id="headerWrapper">
 	<header>
-        <img src="images/logo1x.png" alt="logo">
-		<span>Design Thinking</span>
+        <img src="images/logo1x.png" alt="logo" width="40" height="40" srcset="images/logo1x.png 1x, images/logo2x.png 2x, images/logo3x.png 3x">
+		<span>X-Mobile</span>
         <nav id="primaryNav">
             <button></button>
             <ul>
-                <li><a href="#">Clients</a></li>
-                <li><a href="#">Services</a></li>
-                <li class="active"><a href="#">Best Practices</a></li>
-                <li><a href="#">Our Team</a></li>
-                <li><a href="#">Contact</a></li>
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Games</a></li>
+                <li><a href="#">Consoles</a></li>
+                <li><a href="#">Deals</a></li>
+                <li ><a href="#">Support</a></li>
             </ul>
         </nav>
 	</header>
@@ -39,39 +39,72 @@
 <div id="mainWrapper">
     <main>
 
-        <h1>Best Practices</h1>
-        <div class="row">
-            <div class="column small-12 medium-6 large-3">
-                <img src="images/switch.jpg " alt="switch" width="1024" height="719">
+        <h1>Best Video Game Store</h1>
+        <div class="row"><!--Start of Row-->
+            <div class="column large-6"><!--Start of column-->
+                <section class="line round fill">
+                    <H2>Store Info</H2>
                 <p>The Nintendo Switch is a hybrid gaming console that can be used as a handheld, connected to a TV, or in tabletop mode. 
                     It features detachable Joy-Con controllers, a touchscreen, and a library of exclusive games like Zelda: Breath of the Wild and
                      Super Mario Odyssey. Players can use physical cartridges or download games digitally, making it versatile for solo and multiplayer
                       gaming.</p>
+                </section>
             </div><!--end of column-->
-            <div class="column small-12 medium-6 large-3">
-                <img src="images/switch.jpg " alt="switch" width="1024" height="719">
-                <p>The Nintendo Switch is a hybrid gaming console that can be used as a handheld, connected to a TV, or in tabletop mode. 
-                    It features detachable Joy-Con controllers, a touchscreen, and a library of exclusive games like Zelda: Breath of the Wild and
-                     Super Mario Odyssey. Players can use physical cartridges or download games digitally, making it versatile for solo and multiplayer
-                      gaming.</p>
+            <div class="column large-5"><!--Start of column-->
+                <section class="line round fill">
+                    <H2>Return Policy</H2>
+                <p>At X-Mobile, digital game sales are final, and physical products can be returned within 30 days if unopened or defective. 
+                    Customers are responsible for return shipping unless the item is incorrect. Refunds are processed within 5-7 business days.
+                     For return inquiries, contact support@x-mobilegames.com.</p>
+                </section>
             </div><!--end of column-->
-            <div class="column small-12 medium-6 large-3">
-                <img src="images/switch.jpg " alt="switch" width="1024" height="719">
-                <p>The Nintendo Switch is a hybrid gaming console that can be used as a handheld, connected to a TV, or in tabletop mode. 
-                    It features detachable Joy-Con controllers, a touchscreen, and a library of exclusive games like Zelda: Breath of the Wild and
-                     Super Mario Odyssey. Players can use physical cartridges or download games digitally, making it versatile for solo and multiplayer
-                      gaming.</p>
-            </div><!--end of column-->
-            <div class="column small-12 medium-6 large-3">
-                <img src="images/switch.jpg " alt="switch" width="1024" height="719">
-                <p>The Nintendo Switch is a hybrid gaming console that can be used as a handheld, connected to a TV, or in tabletop mode. 
-                    It features detachable Joy-Con controllers, a touchscreen, and a library of exclusive games like Zelda: Breath of the Wild and
-                     Super Mario Odyssey. Players can use physical cartridges or download games digitally, making it versatile for solo and multiplayer
-                      gaming.</p>
-            </div><!--end of column-->
-        </div><!--end of row-->
-
-       
+        </div><!--end of Row-->
+        <div class="row"><!--Start of Row-->
+                <div class="column large-7"><!--Start of column-->
+                    <section class="switchLine shadow round switchColor">
+                    <H2>Nintendo Switch</H2>
+                    <img src="images/switch.webp " alt="switch" width="500" height="351">
+                    <p>The Nintendo Switch is a hybrid gaming console that can be used as a handheld, connected to a TV, or in tabletop mode. 
+                        It features detachable Joy-Con controllers, a touchscreen, and a library of exclusive games like Zelda: Breath of the Wild and
+                         Super Mario Odyssey. Players can use physical cartridges or download games digitally, making it versatile for solo and multiplayer
+                          gaming.</p>
+                    <div class="container">
+                        <button class="custom-button">PURCHASE</button>
+                    </div>
+                    </section>
+                </div><!--end of column-->
+            </div><!--end of Row-->
+            <H2>Nintendo Games</H2>
+            <div class="row"><!--Start of Row-->
+                <div class="column small-6 medium-4 large-4"><!--Start of column-->
+                    <section class="line switchLine round switchColor">
+                    <img src="images/botw.webp " alt="zelda" width="500" height="809">
+                    <h3>The Legend Of Zelda</h3>
+                    <div class="container">
+                        <button class="custom-button">PURCHASE</button>
+                    </div>
+                    </section>
+                </div><!--end of column-->
+                <div class="column small-6 medium-4 large-4"><!--Start of column-->
+                    <section class="line switchLine round switchColor">
+                    <img src="images/marioKart.webp " alt="mario" width="500" height="351">
+                    <h3>Mario Kart 8</h3>
+                    <div class="container">
+                        <button class="custom-button">PURCHASE</button>
+                    </div>
+                    </section>
+                </div><!--end of column-->
+                <div class="column small-6 medium-4 large-4"><!--Start of column-->
+                    <section class="line switchLine round switchColor">
+                        <img src="images/legends.webp " alt="pokemon" width="500" height="351">   
+                    <h3>Pokemon Legends</h3>
+                    <div class="container">
+                        <button class="custom-button">PURCHASE</button>
+                    </div>
+                    </section>
+                </div><!--end of column-->
+            </div><!--end of Row-->
+            
      
 
     </main>
